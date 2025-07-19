@@ -78,6 +78,21 @@ return [
 
             'icon' => null,
         ],
+
+        /*
+         * Here you may configure custom notification channels. The key should
+         * match the channel name as used by the notification and the value
+         * returned here will be passed to the channel.
+         *
+         * Example to use the Telegram notification channel:
+         *
+         * 'custom_channels' => [
+         *     'telegram' => env('TELEGRAM_CHAT_ID'),
+         * ],
+         */
+        'custom_channels' => [
+            // 'telegram' => env('TELEGRAM_CHAT_ID'),
+        ],
     ],
 
     /*
