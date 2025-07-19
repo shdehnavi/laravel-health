@@ -7,9 +7,10 @@ Whenever one of the checks fails, the package can send you a notification. A not
 
 Out of the box, the notification can be sent:
 
-- via [mail](/docs/laravel-health/v1/configuring-notifications/via-mail), 
+- via [mail](/docs/laravel-health/v1/configuring-notifications/via-mail),
 - via [Slack](/docs/laravel-health/v1/configuring-notifications/via-slack)
 - via [Oh Dear](/docs/laravel-health/v1/configuring-notifications/via-oh-dear) (enables snoozing notifications, and delivery via Telegram, Discord, MS Teams, webhooks, ...)
+- or you can [add your own notification channels](/docs/laravel-health/v1/configuring-notifications/adding-extra-notification-channels)
 
 ## Throttling notifications
 
